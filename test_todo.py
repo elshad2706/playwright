@@ -17,3 +17,4 @@ def test_todo(page):
     expect(todo_item).to_have_count(2)
     todo_item.get_by_role('checkbox').nth(0).click()
     expect(todo_item.nth(0)).to_have_class('completed')
+    page.pause()
