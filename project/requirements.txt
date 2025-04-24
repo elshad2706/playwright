@@ -1,4 +1,7 @@
 playwright
 pytest-playwright
-pyte
-st
+pytest
+playwright
+pytest-playwright
+pytest
+allure-pytest
