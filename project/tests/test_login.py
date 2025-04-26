@@ -8,7 +8,7 @@ import allure
 @allure.feature('Авторизаци')
 @allure.story('Авторизации недействительные учетные данные')
 @allure.severity(allure.severity_level.CRITICAL)
-@allure.title('Авторизаиця с недействительными учетными данными')
+@allure.title('Авторизаиция с недействительными учетными данными')
 def test_login_failure(login_page):
     with allure.step('Открыть страницу авторизации'):
         login_page.navigate()
